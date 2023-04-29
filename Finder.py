@@ -73,21 +73,7 @@ def main():
 
     strc.zagolovok("Finding tel. numbers in  with simple method")
     Find_re(mess)
-    """
-    phoneNumRegex = re.compile(r"(\d\d)-(\d\d\d)-(\d\d\d\d\d\d\d)")
-    mo = phoneNumRegex.search(mess)
-    #print(f"Findet tel. numbers: {mo.group()}")
-    print(f"Findet tel. numbers: {mo.group(0)}")
-    print(f"Findet tel. numbers: {mo.group(1)}")
-    print(f"Findet tel. numbers: {mo.group(2)}")
-    print(f"Findet tel. numbers: {mo.group(3)}")
-    print(f"Findet tel. numbers: {mo.groups()}")
-
-    moall = phoneNumRegex.findall(mess)
-    for tel in moall:
-        print(f"Findet tel. numbers: {tel}")
-    """
-
+ 
 
 
 if __name__ == '__main__':
